@@ -14,7 +14,6 @@ namespace MDRPG.SceneManagement
         {
             if (Input.GetKeyDown(KeyCode.L))
             {
-                print("load save");
                 Load();
             }
             else if (Input.GetKeyDown(KeyCode.S))
